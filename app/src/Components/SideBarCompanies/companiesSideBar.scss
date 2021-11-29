@@ -1,0 +1,11 @@
+section#CompaniesSideBar {
+    .content {
+        padding: 32px;
+        overflow: scroll;
+        height: 100vh;
+        a {
+            font-size: 18px;
+            padding: 8px 0;
+        }
+    }
+}

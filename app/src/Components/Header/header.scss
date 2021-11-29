@@ -1,0 +1,40 @@
+.navbar {
+    #logo {
+        width: 100px;
+    }
+    button {
+        margin-left: 16px;
+    }
+}
+.loadSaveMobile {
+    display: none;
+    flex-wrap: wrap;
+    padding: 24px;
+    overflow: hidden;
+    button {
+        margin-top: 8px;
+    }
+}
+.searchInput {
+    position: relative;
+    input {
+        padding: 10px 40px;
+    }
+    .searchSubmitButton {
+        position: absolute;
+        left: 3%;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .loadSaveDesktop {
+        display: none;
+    }
+    .loadSaveMobile {
+        display: flex;
+    }
+    .navbar-light .navbar-toggler {
+        display: none;
+    }
+}
